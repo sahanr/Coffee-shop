@@ -1,0 +1,149 @@
+body{
+    background-image:url(/img/Paper-BG.jpg); 
+}
+.container.my-container{
+    padding: 0 7%;
+}
+
+header{
+    position: relative;
+    background-color: #282520;
+}
+
+header .logo{
+    float: left;
+    margin: 10px 0; 
+}
+
+header .links{
+    float: right;
+    margin-top: 40px;
+}
+
+
+
+
+.margin-0 {
+    border: 0;
+    margin-bottom: 0;
+    margin-top: 0px;
+    background-color: #282520;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+    color: #b08948;
+    border-bottom: 3px solid #eadfc9;
+    background-color: #282520;
+    width: auto;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #b08948;
+    background-color: #282520;
+}
+/*
+.dropdown-menu{
+    background-color: #282520;
+}
+.dropdown-menu > li > a {
+    color: #ffffff; }
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+    color: #b08948;
+    border-bottom: 2px solid #eadfc9;
+    background-color: #282520;
+    padding-bottom: 1px;
+}
+*/
+
+article p, 
+h4 {
+    padding-left:30px;
+}
+
+
+form{
+    background-image: url(/img/Paper-Yellow.jpg);
+    
+    margin-top: 20px;
+    color: #ffffff;
+    
+}
+form legend{
+    color: #ffffff;
+    border-bottom: 0;
+    background-color: #2a2722;
+    margin-bottom: 0px;
+    padding-left: 10px;
+    
+}
+
+form label{  
+    padding-left: 10px;
+}
+form input{
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 75%;
+    color: #2a2722;
+}
+
+form input.login{
+     background-color: #2a2722;
+    border: 0;
+    margin-top: 10px;
+    width: 40%;
+    height: 27px;
+    color: #fff;
+}
+.form-group{
+    padding-right: 0px;   
+}
+.font-link{
+    text-decoration: underline;
+    color: #2a2722;
+}
+/*
+form button{
+    background-color: #2a2722;
+    margin-left: 10px;
+    border: 0;
+    margin-bottom: 10px;
+    width: 75px;
+    height: 30px;
+}
+*/
+
+
+
+
+footer{
+    margin-top: 20px;
+    position: relative;
+    bottom: 8px;
+    height: 80px;
+    background-color: #6e6c2f;
+    color: #ffffff;
+}
+footer .info{
+    float: left;
+    margin-top: 10px;
+   
+}
+footer .supporting{
+    float: right;
+}
+footer .supporting p{
+    text-align: right;
+    padding-top: 20px;
+    display: inline-block; 
+}
+footer .supporting img{
+    margin-bottom: 20px;
+}
+
